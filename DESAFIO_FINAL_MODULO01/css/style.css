@@ -1,0 +1,79 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    margin: 10px;
+}
+.usuarios{
+    margin: 10px;
+    background: aliceblue;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    padding: 20px;
+}
+.estatisticas{
+    margin: 10px;
+    background: #fff0f0;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    padding: 20px;
+
+
+}
+.user img{
+    border-radius: 50%;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+#carregando{
+    background: url("http://i.stack.imgur.com/MnyxU.gif") center no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.hide{
+    display: none;
+}
+
+
+section {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    min-width: 100%;
+}
+.app {
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.app h1{
+    font-size: 4em;
+}
+#formulario{
+    display: flex;
+    flex-direction: row;
+}
+#ipNome{
+    width: 900px;
+}
+#btnBuscar{
+    margin-left: 20px;
+}
+

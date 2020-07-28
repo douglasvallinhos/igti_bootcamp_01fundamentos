@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Title</title>
+</head>
+<body>
+<section>
+    <div class="app">
+        <h1>Pesquisa de usuários</h1>
+        <div id="carregando"></div>
+        <form action="">
+
+            <label id="formulario">
+                <input type="text" id="ipNome" placeholder="Digite o nome do usuário"/>
+                <input type="button" class="waves-effect waves-light btn teal lighten-3" id="btnBuscar" value="Buscar "/>
+            </label>
+
+        </form>
+
+        <div class="container">
+            <div class="usuarios">
+
+                <span id="spanTotalUsuarios"><h5>Nenhum usuário filtrado</h5></span>
+                <div id="tabUsuarios"></div>
+            </div>
+            <div class="estatisticas">
+
+                <span id="spanEstatisticas"><h5>Nada a ser exibido</h5></span>
+                <div id="tabEstatisticas"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
